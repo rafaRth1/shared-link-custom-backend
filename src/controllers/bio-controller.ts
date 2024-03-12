@@ -1,9 +1,7 @@
-import cloudinary from 'cloudinary';
 import { Types } from 'mongoose';
 import { Request, Response } from 'express';
 import LinksBio from '../models/LinksBio';
 import { LinksBio as LinkBioTypes } from '../interface/links-bio';
-import Links from '../models/Links';
 
 const editValuesBio = async (req: Request, res: Response) => {
 	const { _id, title, description, imageProfile, bannerImage }: LinkBioTypes = req.body;
