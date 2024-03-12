@@ -1,0 +1,13 @@
+import * as express from 'express';
+import { IUser } from '../IUser';
+
+declare global {
+	namespace Express {
+		export interface Request {
+			user: any;
+		}
+		export interface Response {
+			user: any;
+		}
+	}
+}
