@@ -124,3 +124,4 @@ exports.handleUploadImage = handleUploadImage;
 // ]).then((res: any) => {
 // 	console.log(res);
 // });
+//# sourceMappingURL=bio-controller.js.map

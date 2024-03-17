@@ -33,3 +33,4 @@ const checkAuth = (req, res, next) => __awaiter(void 0, void 0, void 0, function
     next();
 });
 exports.default = checkAuth;
+//# sourceMappingURL=check-auth.js.map

@@ -10,3 +10,4 @@ const generateJWT = (id) => {
     });
 };
 exports.default = generateJWT;
+//# sourceMappingURL=generate-jwt.js.map

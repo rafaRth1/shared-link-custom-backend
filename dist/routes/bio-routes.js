@@ -14,3 +14,4 @@ router.put('/reorder-link', bio_controller_js_1.reorderPositionLinksBio);
 // router.post('/updload-delete', handleDestroyImage);
 // router.route('/:id').put(checkAuth, editValuesBio).post(checkAuth, deleteLinkBio);
 exports.default = router;
+//# sourceMappingURL=bio-routes.js.map

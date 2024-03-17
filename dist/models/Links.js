@@ -27,3 +27,4 @@ exports.LinksSchema = new mongoose_1.Schema({
 });
 const Links = (0, mongoose_1.model)('Links', exports.LinksSchema);
 exports.default = Links;
+//# sourceMappingURL=Links.js.map

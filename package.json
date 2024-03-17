@@ -1,14 +1,14 @@
 {
   "name": "shared-links-custom-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.ts",
   "author": "Rafael Alvarez",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "dev": "tsc-watch --onSuccess  \"node dist/index.js\" ",
+    "dev": "tsc-watch --onSuccess  \"tsx src/index.ts\" ",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "tsx src/index.ts"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -18,7 +18,8 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.0",
-    "tsc-watch": "^6.0.4"
+    "tsc-watch": "^6.0.4",
+    "tsx": "^4.7.1"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",

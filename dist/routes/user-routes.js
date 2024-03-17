@@ -13,3 +13,4 @@ router.get('/profile-link/:nickname', user_controller_js_1.profileLink);
 router.get('/perfil', check_auth_js_1.default, user_controller_js_1.profileUser);
 // router.post('/create-nickname', createNicknameUser);
 exports.default = router;
+//# sourceMappingURL=user-routes.js.map

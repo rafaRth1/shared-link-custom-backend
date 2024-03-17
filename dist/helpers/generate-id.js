@@ -6,3 +6,4 @@ const generateID = () => {
     return random + date;
 };
 exports.default = generateID;
+//# sourceMappingURL=generate-id.js.map

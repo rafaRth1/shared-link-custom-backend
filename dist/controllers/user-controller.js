@@ -114,3 +114,4 @@ const profileLink = (req, res) => __awaiter(void 0, void 0, void 0, function* ()
     res.json(dataLinkBio);
 });
 exports.profileLink = profileLink;
+//# sourceMappingURL=user-controller.js.map

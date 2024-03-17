@@ -40,3 +40,4 @@ const LinksBioSchema = new mongoose_1.Schema({
 });
 const LinksBio = (0, mongoose_1.model)('LinksBio', LinksBioSchema);
 exports.default = LinksBio;
+//# sourceMappingURL=LinksBio.js.map

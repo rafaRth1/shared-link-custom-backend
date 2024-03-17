@@ -72,3 +72,4 @@ UserSchema.methods.checkPassword = function (password) {
 };
 const User = (0, mongoose_1.model)('User', UserSchema);
 exports.default = User;
+//# sourceMappingURL=User.js.map
