@@ -11,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 
-//
+// Connect Mongo DB
 
 connectDB();
 
